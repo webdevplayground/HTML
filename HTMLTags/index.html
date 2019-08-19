@@ -32,17 +32,35 @@
 		<li>Item 4</li>
 	</ol>
 
-	<h3>This is neasted list</h3>
-	<ul>
+	<h3>This is 2 levels of nested list</h3>
+	<ul> <!-- first level -->
+		  <li>Item 1</li>
+		  <li>Item 2</li>
+		  <li>Item 3</li>
+		  <li> <!-- an ordered list inside fourth item  -->
+			   <ol> <!-- second level -->
+				    <li>Sub item 1</li>
+				    <li>Sub item 2</li>
+				    <li>Sub item 3</li>
+				    <li>Sub item 4</li>
+			   </ol>
+		  </li>
+	 </ul>
+
+	<h3>This is 3 levels of nested list</h3>
+	<!-- first level -->
+	<ul> 
 		<li>Item 1</li>
 		<li>Item 2</li>
 		<li>Item 3</li>
 		<li>
+			<!-- second level -->
 			<ol>
 				<li>Sub item 1</li>
 				<li>Sub item 2</li>
 				<li>Sub item 3</li>
 				<li>
+					<!-- third level -->
 					<ul>
 						<li>Deep item 1</li>
 						<li>Deep item 2</li>
